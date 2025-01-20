@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 0581d0b0851ad9e438eb53713ca24f8d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1717
+        width: 149
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a09a09822481e34c866b00fd99f276e
+      internalID: 1517548729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1542
+        width: 149
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fef70f7fe1a4c4db22798e6178b763
+      internalID: -586712976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1357
+        width: 165
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d16b7fb76a4fe49871447a08b6fa19
+      internalID: -340351007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_3
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1157
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba35a38b52f873e459b0304b1512050e
+      internalID: -1658435078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1829
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe21a2825a0860a439caa669a7521e53
+      internalID: -727728445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_5
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1703
+        width: 229
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb167b6cdb1cf144a09253b49c449ed
+      internalID: 1134833491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_6
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1695
+        width: 124
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bcfd07decc27b4b8f379c9a81c7836
+      internalID: -868319751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_7
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1552
+        width: 145
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578423ef243a6bf4494a3bfb1ee2d1d8
+      internalID: 439322310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_8
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1407
+        width: 161
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256ba4c257ca1774ba4b30216c5f4a97
+      internalID: -621936290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_10
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1419
+        width: 137
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4cb5d4c6ed8248864755daf12840d
+      internalID: 301294843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_9
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1321
+        width: 139
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269e85339c5cebb4b99710ce42e77862
+      internalID: -596890568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_11
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1363
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4b0e1cf544f9b49b9b12fd1e83cb27
+      internalID: 1231161679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_12
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 979
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344cb8137f6d220488f98042c2598c4e
+      internalID: 1585044308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_13
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 818
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55afddc07f8b7a5498cb3d9e40fdb2b3
+      internalID: 1034759615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_14
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 648
+        width: 175
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3168e6ce334eed24eb37ae771a85aab3
+      internalID: 395138275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd116cba8cd7b4aa1b48d531d11ca2
+      internalID: 1791564730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_16
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 103
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57001d028332fea47bf4a70d10e10b5a
+      internalID: -769058917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_17
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dadab4292041164c99eb81fd85cf67e
+      internalID: -259902336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_18
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 406
+        width: 114
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662239f12f6a9fd4782c9f01bbf5c5dd
+      internalID: 1589146004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_19
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 461
+        width: 306
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285404a2230431143979243a9a74a4ac
+      internalID: -325041802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_20
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 0
+        width: 249
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58894dbdb6c8eef44a940ed1fc40750b
+      internalID: -2142186239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_21
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26c8283f4a77fa48912d788f77836d2
+      internalID: -1795904537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_0: 1517548729
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_1: -586712976
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_10: 301294843
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_11: 1231161679
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_12: 1585044308
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_13: 1034759615
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_14: 395138275
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_15: 1791564730
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_16: -769058917
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_17: -259902336
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_18: 1589146004
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_19: -325041802
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_2: -340351007
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_20: -2142186239
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_21: -1795904537
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_3: -1658435078
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_4: -727728445
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_5: 1134833491
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_6: -868319751
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_7: 439322310
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_8: -621936290
+      sactx-0-2048x2048-ASTC 6x6-TeaPartyAtlas-e5675b1f_9: -596890568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

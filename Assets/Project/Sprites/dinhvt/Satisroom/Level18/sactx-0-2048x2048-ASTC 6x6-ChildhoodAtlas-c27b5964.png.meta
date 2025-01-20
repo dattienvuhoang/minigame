@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: e3d57b4c830cc494ab96a42d95afe52a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1179
+        height: 2048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31da27b93090624ca115289c034039d
+      internalID: 1483417050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_1
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1843
+        width: 136
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3441f3fc6cd8e4d964f12c88610a29
+      internalID: -620150074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_2
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1746
+        width: 62
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da2210ee45761e43977ebfa93b59ed8
+      internalID: -1275657093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_3
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1634
+        width: 65
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c43fa139970b04caf249e9eaacea60
+      internalID: 634863598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_4
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1744
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b68c6755ab6a4c9f59de203d38feb
+      internalID: -1008563908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_5
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1634
+        width: 77
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a49a82b2041f71409aa087ef8645b8f
+      internalID: 924246078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_6
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1588
+        width: 384
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cf6e3a62334fe45ac916778c119349
+      internalID: -167093197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_7
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1551
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9589f22020da7c7479fdee04551ae46a
+      internalID: 1478205065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_8
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1506
+        width: 345
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d14fb7d53aa405488126ad13654f8ae
+      internalID: -1564746347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_9
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1258
+        width: 108
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a80aa5d68d28f47af1207eba77edd0
+      internalID: 1669142141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_10
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1256
+        width: 170
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b397fb518c45cb49b0911c4bd50b9c2
+      internalID: 1579305248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_11
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1337
+        width: 142
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae9bf623ba7e747827eb2bac21a9a3
+      internalID: -1157774465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_12
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1268
+        width: 42
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f69af0410d366d42965fa4861354057
+      internalID: -960988805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_13
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1456
+        width: 139
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d58b635b9851741a112b27dbe5b3ee
+      internalID: 2039445755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_14
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1172
+        width: 156
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5885c7b0e796d438341523022a9d4a
+      internalID: -25846797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_15
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1132
+        width: 110
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfe5bc948636ec4fb166c8d4c2b3209
+      internalID: 1624749768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_16
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1031
+        width: 223
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162eff24cfd689948997a962f2b8ed9f
+      internalID: -1502699474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_17
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 972
+        width: 110
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85068d8f96b48e142b7c92f8f7910266
+      internalID: -1379337764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_18
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 983
+        width: 142
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58283032f2b98146917edd0d177dd45
+      internalID: -1836571624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_19
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1016
+        width: 160
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc4a588764c9c44e9c0ebf3c45945aa
+      internalID: -245900092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_20
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1012
+        width: 78
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dfc5c40dcf24a4f9819ccfb8c03129
+      internalID: -936336411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_21
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 770
+        width: 208
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070183b8b03a27942827645b6261c1e3
+      internalID: -231521025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_22
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 769
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad3f3f18c8c95a459842ee0627422fb
+      internalID: 248222765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_23
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 777
+        width: 132
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ec756a022bbfb4f9176323d59f62ce
+      internalID: 1790702800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_24
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 771
+        width: 107
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3db80bf373eeeb4d87488a7b59b8853
+      internalID: -1439172133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_25
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 480
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f305a5104e13e0e46908fbf943743e22
+      internalID: 460982509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_26
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 411
+        width: 204
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf7ce38dacad4546b61dcc6b1967834
+      internalID: 399596957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_27
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 417
+        width: 120
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccf3c1e50efddb49abd656cd2a24426
+      internalID: 971858172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_28
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 0
+        width: 83
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89e56ddcc2563f4788ada0f5ea7cc87
+      internalID: 1153641304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_29
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 0
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52acc0881ff04d8408d7deac185fc00c
+      internalID: 49224977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_0: 1483417050
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_1: -620150074
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_10: 1579305248
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_11: -1157774465
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_12: -960988805
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_13: 2039445755
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_14: -25846797
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_15: 1624749768
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_16: -1502699474
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_17: -1379337764
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_18: -1836571624
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_19: -245900092
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_2: -1275657093
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_20: -936336411
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_21: -231521025
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_22: 248222765
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_23: 1790702800
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_24: -1439172133
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_25: 460982509
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_26: 399596957
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_27: 971858172
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_28: 1153641304
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_29: 49224977
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_3: 634863598
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_4: -1008563908
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_5: 924246078
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_6: -167093197
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_7: 1478205065
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_8: -1564746347
+      sactx-0-2048x2048-ASTC 6x6-ChildhoodAtlas-c27b5964_9: 1669142141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

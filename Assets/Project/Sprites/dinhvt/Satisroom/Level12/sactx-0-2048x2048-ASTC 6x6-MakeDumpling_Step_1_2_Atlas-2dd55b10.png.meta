@@ -1,0 +1,558 @@
+fileFormatVersion: 2
+guid: 5f18330ab0ddd25439816f0e9b940daf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a4501cca1df14a95b1f9a363de166
+      internalID: -1722835752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_52
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 210
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14393addc5a4884da6b74227b921e1d
+      internalID: -2125942462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1693
+        width: 617
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ea0aa3943f0e6498ef045c1362714c
+      internalID: -771446756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_2
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1703
+        width: 281
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff48a0064611f2418196fbdf8cae05b
+      internalID: -236415259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_3
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1547
+        width: 203
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a930de355f91544ad70c92e359eed9
+      internalID: -1619629444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_4
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1535
+        width: 219
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30460e41f33831d4cad3509708a183b5
+      internalID: -2005094268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_5
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1333
+        width: 195
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdf9a323f7fa7f4788be696e4164e03
+      internalID: 1367471100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_6
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 115
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80436374ecf3142a6b8cbcd3819f75
+      internalID: 992013727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 13
+        width: 226
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f759b365eab5e4d94e343c5a00a6b4
+      internalID: 1074709522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d5ec2d2278e44eaa056c6aa43c30f
+      internalID: -920035018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1033
+        width: 217
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fc16691b5bf834dbeb62def69a55ab
+      internalID: 1498496220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_10
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 733
+        width: 137
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690cf2e9bdef034a853928158b78dcb
+      internalID: -463875519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_11
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 908
+        width: 198
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae49f1b8d2016b742a720ea331cdf7a0
+      internalID: -848747074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_12
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1328
+        width: 215
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db46c9bd012bcde44b15ccc20e7258f6
+      internalID: -282301907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_13
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1372
+        width: 207
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7206c3ff34f2b543b84a0f9b9b00d72
+      internalID: 807050040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_14
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 398
+        width: 215
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b240b2b2e801764a8250676752bbeb3
+      internalID: -743994008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_15
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1215
+        width: 198
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60533152eb9cf9640a4bddb927ad2ae3
+      internalID: -1259370462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_16
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1115
+        width: 207
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2021004f35b724da06f8f4ea1e3d91
+      internalID: 1542127583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_0: -771446756
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_1: -1722835752
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_10: -463875519
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_11: -848747074
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_12: -282301907
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_13: 807050040
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_14: -743994008
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_15: -1259370462
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_16: 1542127583
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_17: 1172467396
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_18: 2125468319
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_19: -695777738
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_2: -236415259
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_20: 2129151161
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_21: 1767449669
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_22: 1498559798
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_23: 1073949029
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_24: 195703842
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_25: 1422587215
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_26: 1177348502
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_27: -1642433669
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_28: -19544016
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_29: -1476200249
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_3: -1619629444
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_30: 867690976
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_31: -191317002
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_32: 471971180
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_33: -241416754
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_34: 854021835
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_35: -2083768234
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_36: -1767111816
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_37: -685070514
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_38: 1411828179
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_39: -1512486450
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_4: -2005094268
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_40: -1492458374
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_41: -643828806
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_42: -680150577
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_43: -143742070
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_44: -572973885
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_45: -1467798438
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_46: 2088150642
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_47: 704500052
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_48: 1565371974
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_49: -765920879
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_5: 1367471100
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_50: -773644328
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_51: 1668808112
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_52: -2125942462
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_6: 992013727
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_7: 1074709522
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_8: -920035018
+      sactx-0-2048x2048-ASTC 6x6-MakeDumpling_Step_1_2_Atlas-2dd55b10_9: 1498496220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

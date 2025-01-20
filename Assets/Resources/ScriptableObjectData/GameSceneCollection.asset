@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f604a61077f91442ab9fec0b8d17b7e, type: 3}
+  m_Name: GameSceneCollection
+  m_EditorClassIdentifier: 
+  GameSceneConfig:
+  - Level: 0
+    NameScene: Clean_car_Dinh
+  - Level: 1
+    NameScene: Clean_dog_Dinh
+  - Level: 2
+    NameScene: Clean_face_Dinh
+  - Level: 3
+    NameScene: Level_3_Dinh
+  - Level: 4
+    NameScene: Level_6_Dinh
+  - Level: 5
+    NameScene: Level_9_Dinh
+  - Level: 6
+    NameScene: Level_12_Dinh
+  - Level: 7
+    NameScene: Level_15_Dinh
+  - Level: 8
+    NameScene: Level_18_Dinh
+  - Level: 9
+    NameScene: Level_21_Dinh
+  - Level: 10
+    NameScene: Level_24_Dinh
+  - Level: 11
+    NameScene: Level_27_Dinh
+  - Level: 12
+    NameScene: Level_30_Dinh
+  - Level: 13
+    NameScene: Level_33_Dinh
+  - Level: 14
+    NameScene: CleanComputer
+  - Level: 15
+    NameScene: Level1
+  - Level: 16
+    NameScene: Level2
+  - Level: 17
+    NameScene: Level5
+  - Level: 18
+    NameScene: Level14
+  - Level: 19
+    NameScene: Level17
+  - Level: 20
+    NameScene: LevelCleanStove
+  - Level: 21
+    NameScene: LevelGarden
+  - Level: 22
+    NameScene: LevelHotPot
+  - Level: 23
+    NameScene: LevelKitchen
+  - Level: 24
+    NameScene: Baking_VTD
+  - Level: 25
+    NameScene: Christmas_VTD
+  - Level: 26
+    NameScene: Level_4_VTD
+  - Level: 27
+    NameScene: Minigame_Vali_VTD
+  - Level: 28
+    NameScene: SapXepDoVaoTuLanh_VTD
+  - Level: 29
+    NameScene: Stained_Glass_VTD
+  - Level: 30
+    NameScene: Level_1_VTD
+  - Level: 31
+    NameScene: Level_7_VTD
+  - Level: 32
+    NameScene: Level_10_VTD
+  - Level: 33
+    NameScene: Level_13_VTD
+  - Level: 34
+    NameScene: Level_31_VTD
+  - Level: 35
+    NameScene: Level_37_VTD

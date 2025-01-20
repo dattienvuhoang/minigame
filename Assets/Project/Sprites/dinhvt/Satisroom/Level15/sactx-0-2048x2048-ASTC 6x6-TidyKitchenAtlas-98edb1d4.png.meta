@@ -1,0 +1,765 @@
+fileFormatVersion: 2
+guid: a482ca37f9f445f46bc9cb800ab2c694
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1830
+        width: 331
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab5e651a6777e947aa7593fa88cb09e
+      internalID: 1312912284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1767
+        width: 327
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb28f84145a4598439951931539e3961
+      internalID: -1715901123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1242
+        width: 179
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0774952766a7526499c4e7edc4bd2b9c
+      internalID: 602073175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 939
+        height: 776
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5149f3c3a36929c458c438800f7c2532
+      internalID: -331145902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_4
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 0
+        width: 485
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e329e23b9ca324b9301b604014afa9
+      internalID: -1289158954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 104
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5107434, y: 0.9025981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fae25101d4514e45a297d77832b1638
+      internalID: 1813904694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_6
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 402
+        width: 146
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4045504e61f03948b31fbf2d2adb3bb
+      internalID: 403787472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_7
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 273
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbef032d35c4643469ad93a11deaffcd
+      internalID: -853478353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_8
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 257
+        width: 134
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd1466a18f1fea49907f36f99e9c923
+      internalID: 750154153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_9
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 78
+        width: 146
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e87fb9e82c9e344cb0b358047c2ecd1
+      internalID: 879673325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_10
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 79
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708423c9bffb6174c8fd68eb14f5d758
+      internalID: -4793731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_11
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 464
+        width: 288
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265c954803509ac4abe5b1acda7887cc
+      internalID: -604800203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_12
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 78
+        width: 88
+        height: 365
+      alignment: 9
+      pivot: {x: 0.5000014, y: 0.9130531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b5ca3ffb80994c8912e27cd18535d
+      internalID: -380208875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_13
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 82
+        width: 92
+        height: 345
+      alignment: 9
+      pivot: {x: 0.50000066, y: 0.9021933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d12df9d6da2942943a18bfca41470
+      internalID: -1282476979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_14
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 577
+        width: 203
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c139ba8bb6a1505409470734c3c67fbd
+      internalID: -1763017101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_15
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 438
+        width: 104
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071057dc5208fee4eb7513dd5becf017
+      internalID: 1378683862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_16
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 823
+        width: 186
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d35939e709fcff4a82f314b6afa7e1e
+      internalID: -81396106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_17
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 728
+        width: 177
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2defe41aa9724dd4e837078ab0babde6
+      internalID: 587477485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_18
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 725
+        width: 80
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5000008, y: 0.9095482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363361e23e96fc44596057ddd8d9d7e6
+      internalID: -1252250752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 764
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc661bca10e1b4185fec091d075f94
+      internalID: -837154760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_20
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1043
+        width: 185
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1228d828faa00549a1d5bd6cd49839d
+      internalID: -676273197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_21
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1084
+        width: 59
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfb15a8e761ca5448cfc22d5f0ca3d4
+      internalID: -435068010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_22
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1107
+        width: 173
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e718aa091df7be94a90c11a9bcd4c037
+      internalID: -321950122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1423
+        width: 521
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89777457bcd8f1f4ba99aaff3b7720f1
+      internalID: -24462977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_24
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 42
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4045abffe230b7543946d6ced174a7a9
+      internalID: 2414416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_25
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3
+        width: 186
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a57e782844d7647aa425f8c3cab1d4
+      internalID: -390212980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_26
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 611
+        width: 191
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523fa91a10e9c8b47a3a40cbdc20e40f
+      internalID: -720699148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_27
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1496
+        width: 125
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d36d9d09bf0a91408737892f63b1bac
+      internalID: 1126170535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_28
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 0
+        width: 90
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3906bbe0f13104b96c9873fee34592
+      internalID: -1605770371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_0: 1312912284
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_1: -1715901123
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_10: -4793731
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_11: -604800203
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_12: -380208875
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_13: -1282476979
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_14: -1763017101
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_15: 1378683862
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_16: -81396106
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_17: 587477485
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_18: -1252250752
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_19: -837154760
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_2: 602073175
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_20: -676273197
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_21: -435068010
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_22: -321950122
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_23: -24462977
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_24: 2414416
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_25: -390212980
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_26: -720699148
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_27: 1126170535
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_28: -1605770371
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_3: -331145902
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_4: -1289158954
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_5: 1813904694
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_6: 403787472
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_7: -853478353
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_8: 750154153
+      sactx-0-2048x2048-ASTC 6x6-TidyKitchenAtlas-98edb1d4_9: 879673325
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

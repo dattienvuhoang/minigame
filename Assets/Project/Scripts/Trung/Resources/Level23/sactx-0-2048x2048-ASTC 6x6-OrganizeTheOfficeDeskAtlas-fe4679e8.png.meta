@@ -1,0 +1,734 @@
+fileFormatVersion: 2
+guid: 3691cb235ced8df47aeda369efae8c0d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 534
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae050a79668ca8f4387eb9e8bfc16169
+      internalID: 406212272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1737
+        width: 196
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88e509fd5250f248ae112af0ba19f22
+      internalID: -1118930196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1737
+        width: 127
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42709cca232b934e917e7ab1742b732
+      internalID: -1268338732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1656
+        width: 578
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138739fd948b3d94fa2c9447e89b7f43
+      internalID: 779616769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_4
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1482
+        width: 79
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cbc14c57d3422408b8e49c620a0f41
+      internalID: -377997855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_5
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 979
+        width: 209
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d051c4fd40759044a9cb6b6f452e870f
+      internalID: 200111587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1482
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cdaf07b6cef544c89df32f88554592
+      internalID: 30693118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 852
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f43d5726865b644a8761f300c611f4
+      internalID: -2946297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_8
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 163
+        width: 401
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bd79e3dab990a48a841c1e6248e320
+      internalID: -1818420034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_9
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 986
+        width: 151
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcbaa70af50a5e47895935df5a58b02
+      internalID: 1934824186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_10
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 605
+        width: 175
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872f697280b43124099ca1f79017840a
+      internalID: 1608842313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_11
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 780
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977c23f581eea9c40b00128daf3a9ed9
+      internalID: -329155345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_12
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 150
+        width: 264
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e669d37188ffaf4c810d2d9dcc903b8
+      internalID: -329188751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_13
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 421
+        width: 72
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ed7034b66f5dc4e8d09f28ce33acb3
+      internalID: 1731831924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_14
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 568
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59d5c8f912433743b046c3245e64d7f
+      internalID: -1726965170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_15
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 538
+        width: 66
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7ec62e02c7de54fbf6a97a39faca00
+      internalID: -1748627529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_16
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 534
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a89bfdc4e8cd1f4fa239a66aa0692ac
+      internalID: 1956007069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_17
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 534
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bce8beffe11ca4bb0f7ae11bc568f7
+      internalID: -1885789078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_18
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 288
+        width: 239
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4849f77b016214a8627ee9cf73dd42
+      internalID: -789362166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_19
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 424
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f177d3113f6874548bd77b133e10bc09
+      internalID: -1461927397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_20
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 336
+        width: 226
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee61b5d0c47ac664f9d21815ae81eb68
+      internalID: -1995857213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_21
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 245
+        width: 226
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92007df9346bf8a4795c6aceba3aac16
+      internalID: 1757516190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_22
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 0
+        width: 322
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18618bc06baa51249a9101707e1f175c
+      internalID: 346482873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_23
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 0
+        width: 140
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08971888106ae5746bd70a82f743eea7
+      internalID: 68962688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_24
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 162
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a5befeb50699b489f3a32d4336ed10
+      internalID: -1339389404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_25
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 197
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703d869f8f34f0f408fa2c370fd69c44
+      internalID: 1536215659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_26
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 0
+        width: 240
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97107a67c42853469fc28af5f30744c
+      internalID: -534977953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_0: 406212272
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_1: -1118930196
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_10: 1608842313
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_11: -329155345
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_12: -329188751
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_13: 1731831924
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_14: -1726965170
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_15: -1748627529
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_16: 1956007069
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_17: -1885789078
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_18: -789362166
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_19: -1461927397
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_2: -1268338732
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_20: -1995857213
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_21: 1757516190
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_22: 346482873
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_23: 68962688
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_24: -1339389404
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_25: 1536215659
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_26: -534977953
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_3: 779616769
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_4: -377997855
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_5: 200111587
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_6: 30693118
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_7: -2946297
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_8: -1818420034
+      sactx-0-2048x2048-ASTC 6x6-OrganizeTheOfficeDeskAtlas-fe4679e8_9: 1934824186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

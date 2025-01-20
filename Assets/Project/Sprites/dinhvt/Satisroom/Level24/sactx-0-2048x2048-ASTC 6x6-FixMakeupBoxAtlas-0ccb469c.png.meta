@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 031d2cfb24517a54881f3814efda49e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 653
+        height: 1084
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b7087f45e92de4b905967642445aee
+      internalID: -1947511086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_1
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 0
+        width: 646
+        height: 576
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e775279e8353cef49b557d1c88b294d7
+      internalID: 1443860091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_2
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 0
+        width: 304
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3f8736a893b1e4aa8dd2ecaebc2e90
+      internalID: -908087481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_3
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 45
+        width: 38
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9973b9016ed53b4f91e6535f4d925bb
+      internalID: 1586409908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_4
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 469
+        width: 288
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df244e3145892145a2fddbcbeb9a293
+      internalID: -1372829008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_5
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 790
+        width: 218
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cdebc120ec9a44f902d0b3f50821bc
+      internalID: -225774903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1155
+        width: 223
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a691a7d77e9024fb68906af2a31416
+      internalID: -1204378253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_7
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1588
+        width: 52
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a645140366f133b4ebfbe18b0e1caf86
+      internalID: 1453682146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_8
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1675
+        width: 135
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190711f22e358f342a058c90e59c1d00
+      internalID: 268770051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_9
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 803
+        width: 165
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37a0599310b4cd4f90404ccf46016fb
+      internalID: 735815301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_10
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 860
+        width: 266
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015da852231c7644b809b0d6370ebae7
+      internalID: -599747634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_11
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1000
+        width: 89
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02baa0fe14ed8741adff8bb732dadc4
+      internalID: 24089928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_12
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1017
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5245ea51da1ced14d9f0137b2a42fa7a
+      internalID: 2066997999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_13
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1172
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eae74fe6bca7d4dabd49863debda99
+      internalID: -1621028789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_14
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1139
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8ffa1ae2b75604a9ebb85a3fc37322
+      internalID: 338768816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_15
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1336
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffac659d4d11534fa07d087d0444e50
+      internalID: 670629292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1318
+        width: 186
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c579ee962735fa140a89bf016bde46ae
+      internalID: -1379634408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_17
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1715
+        width: 303
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc63820cf33b214cb79d52d27ee1696
+      internalID: 790538059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_0: -1947511086
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_1: 1443860091
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_10: -599747634
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_11: 24089928
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_12: 2066997999
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_13: -1621028789
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_14: 338768816
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_15: 670629292
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_16: -1379634408
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_17: 790538059
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_2: -908087481
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_3: 1586409908
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_4: -1372829008
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_5: -225774903
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_6: -1204378253
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_7: 1453682146
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_8: 268770051
+      sactx-0-2048x2048-ASTC 6x6-FixMakeupBoxAtlas-0ccb469c_9: 735815301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

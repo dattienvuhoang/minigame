@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 5a6009b9ae563894584e451674c4fbdd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1798
+        width: 354
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935f8b6c56b45fe4fbfb50b6e18737a2
+      internalID: -884903635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1794
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99cba56ff981a044a4470bb4d4e40bf
+      internalID: -516126577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_2
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1602
+        width: 256
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d54e626051ed40b69d1f04e894811
+      internalID: -1211097128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1746
+        width: 257
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a635ef405eda084bbaf6252d500bd90
+      internalID: 13253353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 944
+        height: 1399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa396ca73231954b89d71ba58bcf82e
+      internalID: 108255193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1398
+        width: 266
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b59a0ee751ae4ca2fffe3a42ea265
+      internalID: 173691981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_6
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1494
+        width: 294
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a3dbe25dbd39d4a8d74cf1f934d30b
+      internalID: -1194038008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_7
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 840
+        width: 240
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cd4f1d8673dd94a88c050791bc0032
+      internalID: -858816319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_8
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 516
+        width: 221
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c308adc79f9a2834db0e25cb82d662a0
+      internalID: -2055741416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_9
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 475
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdc7f1d2d1c1144580a9a2ce40d6dcb
+      internalID: 374191459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_10
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 138
+        width: 147
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f169f39623733d44a79bdedc138b669
+      internalID: -1742323138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_11
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 109
+        width: 152
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206f11712808cb5478b0fd28c9d5a85a
+      internalID: -1798730683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_12
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 258
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475a4f4d6be7bd9409bde01a0d3b527c
+      internalID: 830751174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_13
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 0
+        width: 226
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcff205eac7db854592d29e6c5c17a22
+      internalID: 1386279688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 145
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c1509f03eeac244b7ac43f0445c214
+      internalID: 1381455872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_15
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed292cebe663664a885938990fb261b
+      internalID: 2144674751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_16
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 136
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c47514b62c3ae043a570fdccb0e6dc9
+      internalID: 1559678360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_17
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 1
+        width: 136
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd03b1b551ee1ad4bb28e4528a62c01a
+      internalID: -2021137145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_18
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 310
+        width: 116
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514c845e54fc71438f95419f35e8285
+      internalID: -94845308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_19
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 416
+        width: 164
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d591da5ad9afe2743b5f3f7b245367a9
+      internalID: -80617607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_20
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 690
+        width: 148
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1107c60fa51d64344b1192a582af0103
+      internalID: 187874827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_21
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 840
+        width: 131
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a362c3009e61b6640804e5594a3257e4
+      internalID: -344046857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_22
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1014
+        width: 150
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79cf1eb2b2e4e7448464a3b8e88ff4b
+      internalID: 719099297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_23
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1131
+        width: 143
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b92bca1fe625f4c8eb7817088f94a0
+      internalID: -61679061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 177
+        width: 162
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9afbfcc19153e46903868187daccd6
+      internalID: 1505060868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_25
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 689
+        width: 204
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ae818b13c803341899703f784bb273
+      internalID: -97715820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 0, y: 1024}
+      - {x: -1024, y: -0.00004476046}
+      - {x: 0.00008952092, y: -1024}
+      - {x: 1024, y: 0.000012211078}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_0: -884903635
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_1: -516126577
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_10: -1742323138
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_11: -1798730683
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_12: 830751174
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_13: 1386279688
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_14: 1381455872
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_15: 2144674751
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_16: 1559678360
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_17: -2021137145
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_18: -94845308
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_19: -80617607
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_2: -1211097128
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_20: 187874827
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_21: -344046857
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_22: 719099297
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_23: -61679061
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_24: 1505060868
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_25: -97715820
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_3: 13253353
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_4: 108255193
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_5: 173691981
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_6: -1194038008
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_7: -858816319
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_8: -2055741416
+      sactx-0-2048x2048-ASTC 6x6-DaughterWardrobeAtlas-f9d37157_9: 374191459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 46658fd620817dd478da417719931a45
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1578
+        width: 234
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7e08c512135b24e9f694291c06075c
+      internalID: 1979616663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1590
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd81a51af5615cd4e9fde4370a5b6cd9
+      internalID: -1775247514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1585
+        width: 294
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f67099f4325c7c41893cf26aa35283d
+      internalID: 910627473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 999
+        width: 51
+        height: 1003
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110a851f675c2aa498de642aa6625391
+      internalID: 1726649476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1400
+        width: 234
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eed2f96f12b5e4fb1637730ddddc1d
+      internalID: -386547265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1409
+        width: 234
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe75699b41195f4daba0e27cacac639
+      internalID: 2074031231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 998
+        width: 192
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c452288ef0c1b6b449e6f91606aa0947
+      internalID: -973038169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_10
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1128
+        width: 120
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4479eacbf250ffe4e81b3200ef645d06
+      internalID: 1808415011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_11
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1005
+        width: 83
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338bdc4e2614abe4fb602b123642e22a
+      internalID: 1454031893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_12
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1230
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4731dcbb36bc8840a5a13be7142036f
+      internalID: -380452843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_13
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1122
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b375adb4adae6409f159ca2837b1ab
+      internalID: 1250895470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 597
+        width: 108
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cddbaf971451b94883f70f73f61caed
+      internalID: -1729477492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_17
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 0
+        width: 62
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c0c58077bc32346a6dca71cfd0e6e6
+      internalID: 714622817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_20
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 0
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d4a53793e3cbe4ba50505ed31eb53f
+      internalID: 683672895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_21
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82132cf0d54e0544817902cef62b4a3
+      internalID: -1734827991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_1
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 348
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e5b21cd9e246f45a0cf1cd0970fcc0
+      internalID: -647870077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_5
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 254
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b13cf2115a1474a8b5b6a642a8dde2
+      internalID: -269898162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 237
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e439f024aa6c2fd4db00d4cca54f49a4
+      internalID: -103148281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 242
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b073cc688f8742a6f251b4c26a0f1
+      internalID: -864632450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 208
+        width: 336
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e8fc28c03c1ba42948a2e76e5321f0
+      internalID: -292507855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_18
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 178
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3352cf80e76147847b471227758254e1
+      internalID: -1436253267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_19
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 0
+        width: 190
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0078d3d431a8024bb32b511507c120e
+      internalID: 1721556520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_22
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 215
+        width: 181
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d84e4fff2fd58f4a9183b555a4de7f2
+      internalID: 1613834163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10af83a0ed472f045980cba72250084c
+      internalID: -2145669480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_0: 1979616663
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_1: -647870077
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_10: 1808415011
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_11: 1454031893
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_12: -380452843
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_13: 1250895470
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_14: -864632450
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_15: -1729477492
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_16: -292507855
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_17: 714622817
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_18: -1436253267
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_19: 1721556520
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_2: -1775247514
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_20: 683672895
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_21: -1734827991
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_22: 1613834163
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_23: -2145669480
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_3: 910627473
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_4: 1726649476
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_5: -269898162
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_6: -386547265
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_7: -103148281
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_8: 2074031231
+      sactx-0-2048x2048-ASTC 6x6-MakeupCleansingAtlas-d8d68a62_9: -973038169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

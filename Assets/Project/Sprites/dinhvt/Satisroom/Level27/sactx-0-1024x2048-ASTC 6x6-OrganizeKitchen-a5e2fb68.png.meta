@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: c4d59dc5d21d3444e94e289889093a83
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1335
+        width: 64
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf41238d8f7e3324cbd7d304fc8b5d27
+      internalID: 1572553207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1344
+        width: 107
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac534d4e2b0b3af4da1bc777b6c25566
+      internalID: 1680871954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1279
+        width: 266
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9820f7b84621745a09fd01827d5022
+      internalID: -521387231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1247
+        width: 283
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a28f9d41cb624db2f014f8638e032
+      internalID: 583093444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1108
+        width: 124
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c889fbab3390b4c84a702cd57167ea
+      internalID: 1464988464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1106
+        width: 62
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e03489185ed75f48b284aea76207c8e
+      internalID: 10546106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1074
+        width: 463
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7920fdf0e1083df4a85d8ebc8a3b471a
+      internalID: -85333161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 947
+        width: 195
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44abea473c2ec094f86ab2c22f27cea2
+      internalID: -1103682170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 149
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a363c9a0f6b1b9447b32952e348ecea5
+      internalID: -1063906507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 764
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caeef7cb833f9c4287f3d2b98a2ad85
+      internalID: 1885605556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 142
+        width: 212
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b20c3a6cfac804d85a0183746a514b
+      internalID: 375195620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_11
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 919
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1485547093282074099f2d05af9df196
+      internalID: -816871778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 834
+        width: 343
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719394b30e0ca8347adccaf6e21ed5f4
+      internalID: 534603238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_13
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 754
+        width: 343
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871c9effbb9bafb4d81c10338d7b6ce2
+      internalID: -770552294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 627
+        width: 352
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae824f59d48cdec4eadb068ebe957d36
+      internalID: 1916669954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 513
+        width: 508
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722b37cbf1bc60a4ca806b4fd84d7dfc
+      internalID: 1517759957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 6
+        width: 212
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0faecb043cf33948943fb7664760d75
+      internalID: -1822452099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_17
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 344
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4652d5d8a932d48b35fea09894a854
+      internalID: -314742535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_18
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 97
+        width: 83
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee8a223771653f40ae0e34b99da5fa6
+      internalID: 1736125909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_19
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 95
+        width: 82
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368c356ed72ed1e42a487780310f81de
+      internalID: -2091778365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_20
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 112
+        width: 79
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bd7d1499a79524dad087291efd1f1a
+      internalID: -1010905612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_21
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 491
+        width: 100
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6f32e235d62d746814ba621f7a51dc
+      internalID: 1310887303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_0: 1572553207
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_1: 1680871954
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_10: 375195620
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_11: -816871778
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_12: 534603238
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_13: -770552294
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_14: 1916669954
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_15: 1517759957
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_16: -1822452099
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_17: -314742535
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_18: 1736125909
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_19: -2091778365
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_2: -521387231
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_20: -1010905612
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_21: 1310887303
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_3: 583093444
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_4: 1464988464
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_5: 10546106
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_6: -85333161
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_7: -1103682170
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_8: -1063906507
+      sactx-0-1024x2048-ASTC 6x6-OrganizeKitchen-a5e2fb68_9: 1885605556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

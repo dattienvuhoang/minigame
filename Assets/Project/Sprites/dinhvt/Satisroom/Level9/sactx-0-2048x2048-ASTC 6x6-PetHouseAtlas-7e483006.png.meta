@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: 60cf1a82556357b45a1e140d9b16d728
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1417
+        width: 363
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262352d7f9c9d3140ac6bfcd7ee57280
+      internalID: 1259591786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1419
+        width: 365
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b140a8af0ce8d5c4a94692cbf9aec842
+      internalID: -376532502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1744
+        width: 262
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440e9aefa2ed13d4fbc94f3a0fe5fe2d
+      internalID: 1364624725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1746
+        width: 202
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6037247eedf933489379e841aa1c2e0
+      internalID: 1926064998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1746
+        width: 202
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355fc74f8307a8c408268952a8743486
+      internalID: -565999507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_5
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1741
+        width: 211
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ea5aceb1a4b80469db7e548f4f5c98
+      internalID: 1910659095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1751
+        width: 53
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d09db9e1343664a8e6b63cc63e13c4
+      internalID: 319495467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1566
+        width: 53
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23cebe48672a4447a6275db9e686473
+      internalID: 98353125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1563
+        width: 132
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f0d59d400df9429f385656f6fe486
+      internalID: 1955036684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_9
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1744
+        width: 149
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6963c57a607cfcf4ba7498b3a3588d6d
+      internalID: -1803569843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_10
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1366
+        width: 233
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46342831e6ce724ab891277d0ad74e1
+      internalID: 11542100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_11
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1342
+        width: 108
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b25e90d6d9e65459e106246d485422
+      internalID: -1763796872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_12
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 768
+        width: 224
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e7388179db7647a51b01f5964c53b
+      internalID: 1002175976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1109
+        width: 411
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b19bdb1d25c13c4b8b3f1cf8231ee53
+      internalID: 1168794084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 619
+        width: 274
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707f2c4ab2eed9e4da06e9ff640aecdc
+      internalID: -518878657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_15
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 927
+        width: 180
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cb831222af1dc4ead4ae581ff23334
+      internalID: -1114098354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_16
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 650
+        width: 197
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb4159da0adddc41af1d057eaa3c076
+      internalID: 1870426805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_17
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 444
+        width: 360
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b3d51d7f98b8f459ce3272c239c46f
+      internalID: 123913249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_18
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 124
+        width: 363
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c10bc64f48f7584fa5b72f7e58e1a48
+      internalID: 2090051162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_19
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 259
+        width: 130
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98ce3194a536bd448373d0918914c1e
+      internalID: -1740386521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_20
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 170
+        width: 180
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd92011f9b9313408bed0a56ae63d8e
+      internalID: -400856749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_21
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 0
+        width: 394
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7110de2f131867b489bd25503b2ae86a
+      internalID: -1853734799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_22
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 81
+        width: 82
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf38b7bb396e548ad8da4647ec7634
+      internalID: -1798886883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_23
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1023
+        width: 288
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8a1957f12e0c24888185640b5df4fb
+      internalID: -2007104003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_24
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 773
+        width: 367
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57e3c7222c6d734a8f23fd4d6ab80dc
+      internalID: 2038577121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_25
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 233
+        width: 220
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe33b93f25782e4498fe6e43267d48f
+      internalID: -606142725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_26
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 9
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71efcc64822044542b47502694beb6f3
+      internalID: 242177624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_0: 1259591786
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_1: -376532502
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_10: 11542100
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_11: -1763796872
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_12: 1002175976
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_13: 1168794084
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_14: -518878657
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_15: -1114098354
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_16: 1870426805
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_17: 123913249
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_18: 2090051162
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_19: -1740386521
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_2: 1364624725
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_20: -400856749
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_21: -1853734799
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_22: -1798886883
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_23: -2007104003
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_24: 2038577121
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_25: -606142725
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_26: 242177624
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_3: 1926064998
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_4: -565999507
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_5: 1910659095
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_6: 319495467
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_7: 98353125
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_8: 1955036684
+      sactx-0-2048x2048-ASTC 6x6-PetHouseAtlas-7e483006_9: -1803569843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
