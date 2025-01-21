@@ -3,6 +3,7 @@ using DG.Tweening;
 using SR4BlackDev.UISystem;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,21 +14,23 @@ namespace VuTienDat
         [Header("Drag")]
         [SerializeField] private LayerMask layerItem;
         [SerializeField] private LayerMask layerPos;
-        [SerializeField] private List<GameObject> listItem, listPos;
+        [SerializeField] private List<GameObject> listItem, listQtip;
         [SerializeField] private bool isDragging = false;
         [Header("Clean")]
         [SerializeField] private Sprite spTowelOn;
         [SerializeField] private Sprite spTowelOff;
         [SerializeField] private Vector3 posTowel, lastPos;
-        [SerializeField] private GameObject towel;
+        [SerializeField] private GameObject towel, qtip;
         [SerializeField] private GameObject glassStain, sinkStain ;
-
+        public List<D2dDestructibleSprite> listD2D;
+        public BoxCollider2D boxDoor;
+        
         private GameObject itemParent, itemChild;
         private Camera cam;
         private int idItem, idBox;
         private bool isPause;
         public GameObject emojiLike;
-        private bool isShowDone = false;
+        private bool isShowDone = false, isCloseQtip = false;
         public GameObject hint;
         public CanvasGroup cvHint;
         public Button btnContinue;
@@ -54,7 +57,7 @@ namespace VuTienDat
             if (Input.GetMouseButtonDown(0) && Input.touchCount == 1 && !isPause)
             {
                 Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-
+                
                 RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector3.forward, Mathf.Infinity, layerItem);
                 /*if (hit.collider != null)
                 {
@@ -92,32 +95,73 @@ namespace VuTienDat
 
                     //Debug.Log("ID Box: " + idBox);
                 }*/
-                TagGameObject tag = hit.collider.GetComponent<TagGameObject>();
-                if (tag.tagValue == "Item")
+                if (hit.collider != null)
                 {
-                    itemParent = hit.collider.gameObject;
-                    itemChild = itemParent.transform.GetChild(0).gameObject;
-                    lastPos = itemParent.transform.position;
-                    MouseDown(1.2f);
+                    TagGameObject tag = hit.collider.GetComponent<TagGameObject>();
+                    if (tag != null)
+                    {
+                        if (tag.tagValue == "Item" || tag.tagValue == "Towel")
+                        {
+                            isDragging = true;
+                            itemParent = hit.collider.gameObject;
+                            itemChild = itemParent.transform.GetChild(0).gameObject;
+                            lastPos = itemParent.transform.position;
+                            MouseDown(1.2f);
+                        }
+                        else if (tag.tagValue == "Faucet")
+                        {
+                                WaterTap.instance.Tap();
+                        }
+                        else if (tag.tagValue == "Door")
+                        {
+                            RottenGlass.instance.OnOff();
+                        }
+                    }
                 }
-                else if (tag.tagValue == "")
-                {
-
-                }
-
+                
             }
             if (Input.GetMouseButtonUp(0))
             {
                 Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-                TagGameObject tag = itemParent.GetComponent<TagGameObject>();
-                if (tag != null)
+                if (itemParent != null)
                 {
-                    if (tag.tagValue == "Item")
+                    TagGameObject tag = itemParent.GetComponent<TagGameObject>();
+                    if (tag != null)
                     {
-                        TruePos truePos = itemParent.GetComponent<TruePos>(); 
-                        //if (Vector3.Distance())
+                        if (tag.tagValue == "Item")
+                        {
+                            TruePos truePos = itemParent.GetComponent<TruePos>();
+                            if (truePos != null)
+                            {
+                                if (Vector3.Distance(itemParent.transform.position, truePos.truePos) < truePos.distance)
+                                {
+                                    truePos.Move();
+                                    listItem.Remove(itemParent);
+                                }
+                                else
+                                {
+                                    itemParent.transform.DOMove(lastPos, 0.15f);
+                                }
+                            }
+                            TruePos_2 truePos2 = itemParent.GetComponent<TruePos_2>();
+                            if (truePos2 != null)
+                            {
+                                if (truePos2.Check() && truePos2.isMove)
+                                {
+                                    truePos2.Move();    
+                                    listItem.Remove(itemParent);
+                                    if (listQtip.Contains(itemParent))
+                                    {
+                                        listQtip.Remove(itemParent);
+                                    }
+                                }
+                            }
 
+                        }
                     }
+
+                    itemParent = null;
+                    isDragging = false;
                 }
                 /*if (itemParent != null)
                 {
@@ -182,23 +226,34 @@ namespace VuTienDat
                 Vector3 newPosition = cam.ScreenToWorldPoint(newMousePosition);
                 itemParent.transform.position = new Vector3(newPosition.x, newPosition.y);
             }
-            if (CheckDes(glassStain.transform.GetChild(3).gameObject))
+
+            if (listQtip.Count == 0 && isCloseQtip == false)
             {
-                if (listItem.Contains(glassStain))
+                isCloseQtip = true;
+                qtip.transform.DORotate(Vector3.zero, 0.1f);
+            }
+            if (listItem.Count == 2 && boxDoor.enabled == false)
+            {
+                boxDoor.enabled = true; 
+                ShowDone(); 
+            }
+            if (CheckDes())
+            {
+                if (listItem.Contains(glassStain) && listItem.Contains(sinkStain) )
                 {
                     listItem.Remove(glassStain);
-                    //ShowDone();
+                    listItem.Remove(sinkStain);
                 }
                
             }
-            if (CheckDes(sinkStain.transform.GetChild(1).gameObject))
+            /*if (CheckDes(sinkStain.transform.GetChild(1).gameObject))
             {
                 if (listItem.Contains(sinkStain))
                 {
                     listItem.Remove(sinkStain);
                     //ShowDone();
                 }
-            }
+            }*/
             if (listItem.Count == 0 && !isPause)
             {
 
@@ -252,12 +307,22 @@ namespace VuTienDat
             yield return new WaitForSeconds(0.05f);
             sinkStain.transform.GetChild(1).GetComponent<D2dDestructibleSprite>().enabled = false;
         }
-        private bool CheckDes(GameObject gameObject)
+        private bool CheckDes()
         {
-            if (gameObject.GetComponent<D2dDestructibleSprite>().AlphaCount == 0)
+            int index = 0;
+            for (int i = 0; i < listD2D.Count; i++)
+            {
+                if (listD2D[i].AlphaRatio < 0.01f)
+                {
+                    index++;
+                }
+            }
+
+            if (index == listD2D.Count)
             {
                 return true;
             }
+
             return false;
         }
         public void ShowDone()

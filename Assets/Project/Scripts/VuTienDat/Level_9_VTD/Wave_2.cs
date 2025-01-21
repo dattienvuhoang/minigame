@@ -16,9 +16,9 @@ namespace VuTienDat
         }
         private void Start()
         {
-            SetList();
+            //SetList();
         }
-        private void SetList()
+        /*private void SetList()
         {
             GameObject plate = transform.GetChild(0).gameObject;
             GameObject food = transform.GetChild(1).gameObject;
@@ -30,7 +30,7 @@ namespace VuTienDat
             {
                 listWave_2.Add(food.transform.GetChild(i).transform.GetChild(0).GetComponent<SpriteRenderer>());
             }
-        }
+        }*/
         public void FadeWave()
         {
             for (int i = 0; i < listWave_2.Count; i++)

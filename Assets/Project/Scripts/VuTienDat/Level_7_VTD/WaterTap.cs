@@ -7,9 +7,10 @@ namespace VuTienDat
 {
     public class WaterTap : MonoBehaviour
     {
-        [SerializeField] private GameObject spOn, water;
+        public BoxCollider2D box;
+        [SerializeField] private GameObject spOn,spOff, water;
         [SerializeField] private bool isOn = true;
-        [SerializeField] private D2dDestructibleSprite d2d;
+        [SerializeField] private List<D2dDestructibleSprite> d2d;
         public static WaterTap instance;
         private void Awake()
         {
@@ -19,15 +20,23 @@ namespace VuTienDat
         {
             if (isOn)
             {
+                box.enabled = false;
                 isOn = false;
-                d2d.enabled = true;
+                spOff.SetActive(true);
+                for (int i = 0; i < d2d.Count; i++)
+                {
+                    d2d[i].enabled = true;
+                }
                 spOn.SetActive(false);
                 water.SetActive(false);
             }
             else
             {
                 isOn = true;
-                d2d.enabled = false;
+                for (int i = 0; i < d2d.Count; i++)
+                {
+                    d2d[i].enabled = false;
+                }
                 spOn.SetActive(true);
                 water.SetActive(true);
             }

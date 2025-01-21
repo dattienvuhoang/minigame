@@ -6,9 +6,10 @@ namespace VuTienDat
 {
     public class RottenGlass : MonoBehaviour
     {
-        [SerializeField] private GameObject stain;
+        //[SerializeField] private GameObject stain;
         [SerializeField] private GameObject spOn, spOff;
-        private bool isOn = false;
+        public BoxCollider2D box;
+        private bool isOn = true;
 
         public static RottenGlass instance;
         private void Awake()
@@ -20,17 +21,18 @@ namespace VuTienDat
         {
             if (isOn)
             {
+                box.enabled = false;
                 isOn = false;
                 spOn.SetActive(false);
                 spOff.SetActive(true);
-                stain.SetActive(false);
+                //stain.SetActive(false);
             }
             else
             {
                 isOn = true;
                 spOff.SetActive(false);
                 spOn.SetActive(true);
-                stain.SetActive(true);
+                //stain.SetActive(true);
             }
         }
     }
