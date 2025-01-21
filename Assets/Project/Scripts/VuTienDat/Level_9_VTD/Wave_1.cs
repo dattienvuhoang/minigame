@@ -31,7 +31,7 @@ namespace VuTienDat
         {
             for (int i = 0; i < listWave_1.Count; i++)
             {
-                listWave_1[i].DOFade(0, 1f);
+                listWave_1[i].DOFade(0, 2f);
             }
         }
     }
