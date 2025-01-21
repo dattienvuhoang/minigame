@@ -59,7 +59,7 @@ namespace VuTienDat
         private void Update()
         {
             isPause = GameManager_Level_31.instance.IsGamePause();
-
+            // Check commit
             if (Input.GetMouseButtonDown(0) && !isPause && Input.touchCount == 1)
             {
                 Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -70,21 +70,22 @@ namespace VuTienDat
                     isDragging = true;
                     itemParent = hit.collider.gameObject;
                     itemChild = itemParent.transform.GetChild(0).gameObject;
+                    lastPos = itemParent.transform.position;
                     MouseDown(1.2f);
                     TagGameObject tag = itemParent.GetComponent<TagGameObject>();
-                    
+
                     //if (itemParent.tag != "Trash")
-                    if (tag == null || tag.tagValue != "Trash") 
+                    if (tag == null || tag.tagValue != "Trash")
                     {
                         lastPos = itemParent.transform.position;
-                        if (indexMisson>=0 && indexMisson <10)
+                        if (indexMisson >= 0 && indexMisson < 10)
                         {
                             if (itemParent == listTool[indexMisson].gameObject)
                             {
                                 itemParent.transform.GetChild(1).gameObject.SetActive(true);
                             }
                         }
-                        
+
                     }
                 }
 
@@ -95,16 +96,16 @@ namespace VuTienDat
 
                 if (itemParent != null)
                 {
-                    MouseUp();
+                    MouseUp();  
                     TagGameObject tag = itemParent.GetComponent<TagGameObject>();
                     //if (itemParent.tag == "Tool_1")
-                    if (tag!=null && tag.tagValue =="Tool_1")
+                    if (tag != null && tag.tagValue == "Tool_1")
                     {
                         itemParent.transform.DOMove(lastPos, 0.15f);
                     }
                     else if (tag != null && tag.tagValue == "Item")
                     {
-                        Item_Level_10 item = itemParent.GetComponent<Item_Level_10>();
+                        /*Item_Level_10 item = itemParent.GetComponent<Item_Level_10>();
                         RaycastHit2D hitFoodPos = Physics2D.Raycast(mousePosition,Vector3.forward,Mathf.Infinity, layerPos);
                         if (hitFoodPos.collider != null)
                         {
@@ -135,9 +136,35 @@ namespace VuTienDat
                                     }
                                 }
                             }
+                        }*/
+                        TruePos truePos = itemParent.GetComponent<TruePos>();
+                        if (truePos != null)
+                        {
+                            if (Vector3.Distance(itemParent.transform.position, truePos.truePos) < truePos.distance)
+                            {
+                                truePos.Move();
+                                if (!listFoodSucces.Contains(itemParent.gameObject))
+                                {
+                                    listFoodSucces.Add(itemParent.gameObject);
+                                }
+                                if (itemParent.name =="Item_6" || itemParent.name =="Item_7")
+                                {
+                                    itemChild.transform.GetComponent<SpriteRenderer>().sprite = itemParent.GetComponent<ChangeSprite>().spriteFold;
+                                }
+                                
+                            }
+                            else
+                            {
+                                itemParent.transform.DOMove(lastPos, 0.15f);
+                                RotationController rotationController = itemParent.GetComponent<RotationController>();
+                                if (rotationController != null)
+                                {
+                                    itemParent.transform.DORotate(rotationController.rotation, 0.15f);
+                                }
+                            }
                         }
                     }
-                    else 
+                    else
                     {
                         RaycastHit2D tray = Physics2D.Raycast(mousePosition, Vector3.forward, Mathf.Infinity, layerTray);
                         if (tray.collider == null)
@@ -164,9 +191,9 @@ namespace VuTienDat
                     listD2D[0].enabled = true;
                     indexMisson++;
                 }
-                if (indexMisson>=0 && indexMisson < listD2D.Count)
+                if (indexMisson >= 0 && indexMisson < listD2D.Count)
                 {
-                    if (listD2D[indexMisson].AlphaRatio < 0.2f)
+                    if (listD2D[indexMisson].AlphaRatio < 0.01f)
                     {
                         listTool[indexMisson].transform.GetChild(1).gameObject.SetActive(false);
                         listD2D[indexMisson].gameObject.SetActive(false);
@@ -176,11 +203,11 @@ namespace VuTienDat
                         {
                             listD2D[indexMisson].enabled = true;
                         }
-                        
+
                     }
                 }
-                
-                
+
+
             }
             if (isDragging && itemParent != null)
             {
@@ -195,19 +222,20 @@ namespace VuTienDat
                 {
                     for (int i = 0; i < listFoodSucces.Count; i++)
                     {
-                        Item_Level_10 item = listFoodSucces[i].GetComponent<Item_Level_10>();
-                        listFoodSucces[i].transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = item.spItemFold;
+                        ChangeSprite changeSprite =  listFoodSucces[i].GetComponent<ChangeSprite>();
+                        listFoodSucces[i].transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = changeSprite.spriteFold;
                     }
                     ShowDone();
                     PopupManager.ShowToast("Win");
                     GameManager_Level_31.instance.setIsGamePause(true);
                 });
             }
-            if (indexMisson == 10 && wave_2.active == false)
+            if (indexMisson == 10 && wave_2.active == false && !isDragging)
             {
                 Wave_1.instance.FadeWave();
                 wave_2.SetActive(true);
                 Wave_2.instance.FadeWave();
+                StartCoroutine(DisableWave1());
             }
         }
         private void MouseDown(float scale)
@@ -233,14 +261,19 @@ namespace VuTienDat
             {
                 spriteRe.sprite = itemParent.GetComponent<Tool_Level_31>().spOff;
             }
-            else if (tag != null && tag.tagValue == "Item")
+            /*else if (tag != null && tag.tagValue == "Item")
             {
-                itemParent.transform.DORotate(itemParent.GetComponent<Item_Level_10>().rotation, 0.15f);
-            }
-            else
+                RotationController rotationController = itemParent.GetComponent<RotationController>();
+                if (rotationController != null)
+                {
+                    itemParent.transform.DORotate(rotationController.rotation, 0.15f);
+                }
+               
+            }*/
+            /*else
             {
                 itemParent.transform.DORotate(itemParent.GetComponent<Item>().rotation, 0.15f);
-            }
+            }*/
         }
         IEnumerator setOffD2D()
         {
@@ -250,6 +283,12 @@ namespace VuTienDat
                 //listD2D[i].Rebuild();
                 listD2D[i].enabled = false;
             }
+        }
+
+        IEnumerator DisableWave1()
+        {
+            yield return new WaitForSeconds(1f);
+            wave_1.SetActive(false);
         }
         public void ShowDone()
         {

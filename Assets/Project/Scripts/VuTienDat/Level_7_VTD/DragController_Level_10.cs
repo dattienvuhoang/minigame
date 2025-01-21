@@ -109,11 +109,20 @@ namespace VuTienDat
             if (Input.GetMouseButtonUp(0))
             {
                 Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+                TagGameObject tag = itemParent.GetComponent<TagGameObject>();
+                if (tag != null)
+                {
+                    if (tag.tagValue == "Item")
+                    {
+                        TruePos truePos = itemParent.GetComponent<TruePos>(); 
+                        //if (Vector3.Distance())
 
+                    }
+                }
                 /*if (itemParent != null)
                 {
                     MouseUp();
-                    TagGameObject tag = itemParent.GetComponent<TagGameObject>(); 
+                    TagGameObject tag = itemParent.GetComponent<TagGameObject>();
                     if (tag != null)
                     {
                         //if (itemParent.CompareTag("Tool_3"))
@@ -122,7 +131,7 @@ namespace VuTienDat
                             towel.transform.DOMove(posTowel, 0.15f);
                         }
                     }
-                    
+
                     RaycastHit2D[] hitPos = Physics2D.RaycastAll(mousePosition,Vector3.forward,Mathf.Infinity, layerPos);
                     if (hitPos.Length > 0)
                     {
@@ -140,7 +149,7 @@ namespace VuTienDat
                                     int idPos = position.listPosition[j].GetComponent<Position>().idPos;
                                     if (idPos == idItem)
                                     {
-                                        
+
                                         SpriteRenderer spriteRe = itemChild.transform.GetComponent<SpriteRenderer>();
                                         spriteRe.sortingOrder = position.listPosition[j].transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder;
                                         itemParent.transform.DORotate(Vector3.zero, 0.15f);

@@ -44,7 +44,6 @@ namespace VuTienDat
                 time -= Time.deltaTime;
 
                 time = Mathf.Max(time, 0);
-
                 UpdateTimerDisplay();
             }
             else
