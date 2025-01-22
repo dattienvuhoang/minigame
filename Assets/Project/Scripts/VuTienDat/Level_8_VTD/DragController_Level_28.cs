@@ -107,7 +107,7 @@ namespace VuTienDat
                     TagGameObject tag = hit.collider.gameObject.GetComponent<TagGameObject>();
                     if (tag != null)
                     {
-                        if (tag.tagValue == "Switch")
+                        /*if (tag.tagValue == "Switch")
                         {
                             Debug.Log("Click");
                             //TurnOnOffFan.Instance.OnOff();
@@ -121,7 +121,7 @@ namespace VuTienDat
                                 }
                             }
                         }
-                        else
+                        else*/
                         {
                             
                             isDragging = true;
@@ -170,33 +170,44 @@ namespace VuTienDat
                         {
                            
                             TruePos truePos = itemParent.GetComponent<TruePos>();
-                            if (Vector3.Distance(truePos.truePos, itemParent.transform.position) < truePos.distance)
+                            if (truePos != null)
                             {
-                                if (listItemWave_5.IndexOf(itemParent) == indexItem|| indexItem >= 6 )
+                                if (Vector3.Distance(truePos.truePos, itemParent.transform.position) < truePos.distance)
                                 {
-                                    truePos.Move();
-                                    itemChild.GetComponent<SpriteRenderer>().sortingOrder = indexItem;
-                                    indexItem++;
+                                    if (listItemWave_5.IndexOf(itemParent) == indexItem|| indexItem >= 6 )
+                                    {
+                                        truePos.Move();
+                                        itemChild.GetComponent<SpriteRenderer>().sortingOrder = indexItem;
+                                        indexItem++;
+                                    }
+                                    else
+                                    {
+                                        /*if (itemParent.name == "Screw")
+                                        {
+                                            itemParent.transform.GetChild(0).gameObject.SetActive(true);
+                                            itemParent.transform.GetChild(1).gameObject.SetActive(false);
+                                        }*/
+                                        itemParent.transform.DOLocalMove(lastPos, 0.15f);
+                                    }
                                 }
                                 else
                                 {
-                                    if (itemParent.name == "Screw")
+                                    /*if (itemParent.name == "Screw")
                                     {
-                                        itemParent.transform.GetChild(0).gameObject.SetActive(true);
-                                        itemParent.transform.GetChild(1).gameObject.SetActive(false);
-                                    }
+                                        itemParent.transform.GetChild(1).gameObject.SetActive(true);
+                                        itemParent.transform.GetChild(0).gameObject.SetActive(false);
+                                    }*/
                                     itemParent.transform.DOLocalMove(lastPos, 0.15f);
-
                                 }
                             }
-                            else
+                            
+                            TruePos_2 truePos2 = itemParent.GetComponent<TruePos_2>();
+                            if (truePos2 != null)
                             {
-                                if (itemParent.name == "Screw")
+                                if (truePos2.Check() && truePos2.isMove)
                                 {
-                                    itemParent.transform.GetChild(1).gameObject.SetActive(true);
-                                    itemParent.transform.GetChild(0).gameObject.SetActive(false);
+                                    truePos2.Move();
                                 }
-                                itemParent.transform.DOLocalMove(lastPos, 0.15f);
                             }
                         }
                         else if (Vector3.Distance(itemParent.transform.position, lastPos) > 0.5f)
@@ -415,6 +426,7 @@ namespace VuTienDat
             listItemWave_5[6].transform.DOMoveX(-1.4f, 1.25f);
             listItemWave_5[7].transform.DOMoveX(0.22f, 1.25f);
             listItemWave_5[8].transform.DOMoveX(1f, 1.25f);
+            listItemWave_5[9].transform.DOMoveX(1.2f, 1.25f);
         }
 
         IEnumerator SetActiveGameObject(GameObject go , float time)

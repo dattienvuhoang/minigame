@@ -9839,7 +9839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c3a116b0eadf5344ad1c4b9c27bb2fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 5
+  time: 150
   audioSource: {fileID: 0}
   musicClip: {fileID: 0}
 --- !u!1 &1171598771
