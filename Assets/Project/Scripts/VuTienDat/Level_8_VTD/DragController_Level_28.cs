@@ -115,7 +115,7 @@ namespace VuTienDat
                             ShowDone();
                             if (!TurnOnOffFan.Instance.isOn && indexWave == 1)
                             {
-                                for (int i = 5; i < 8; i++)
+                                for (int i = 5; i < 9; i++)
                                 {
                                     listItemWave_1[i].GetComponent<BoxCollider2D>().enabled = true;
                                 }

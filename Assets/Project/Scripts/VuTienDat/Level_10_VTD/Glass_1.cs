@@ -20,7 +20,7 @@ namespace VuTienDat
                 {
                     DragController_Level_40.ins.itemParent = null;
                     this.gameObject.transform.DOScale(1, 0.3f);
-                    this.gameObject.transform.DOMove(new Vector3(1.914f, 0.518f, 0), 0.3f).OnComplete(() =>
+                    this.gameObject.transform.DOMove(new Vector3(1.353f, -0.491f, 0), 0.3f).OnComplete(() =>
                     {
                         anim.enabled = true;
                         box.enabled = false;
@@ -32,7 +32,7 @@ namespace VuTienDat
         IEnumerator ChangeSprite()
         {
             yield return new WaitForSeconds(2f);
-            spGlass_2.DOFade(0, 1f);
+            //spGlass_2.DOFade(0, 1f);
             spGlass_2_Lip.DOFade(1, 1f).OnComplete(() =>
             {
                 glass_2.layer = 6;

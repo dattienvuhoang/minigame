@@ -58,7 +58,6 @@ namespace VuTienDat
                     TagGameObject tag = hit.collider.gameObject.GetComponent<TagGameObject>();
                     if (tag != null)
                     {
-                        
                         if (tag.tagValue == "Button")
                         {
                             isShowDone = false;
@@ -96,11 +95,11 @@ namespace VuTienDat
                             }
                             else if (tag.tagValue =="LipDone")
                             {
-                                itemParent.transform.DORotate(new Vector3(0, 0, 0), 0.25f);
+                                itemParent.transform.DORotate(new Vector3(0, 0, 180), 0.25f);
                                 itemParent.GetComponent<SpriteRenderer>().sortingOrder = 5;
                             }
                             if (tag.tagValue != "LipDone")
-                                MouseDown(1.5f);
+                                MouseDown(1.1f);
 
                         }
                     }
@@ -123,6 +122,10 @@ namespace VuTienDat
                             if (OpenDoor.ins.isOpen && Vector3.Distance(itemParent.transform.position, truePos.truePos) < truePos.distance)
                             {
                                 truePos.Move();
+                                itemParent.transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>()
+                                    .sortingOrder = 3;  
+                                itemParent.transform.GetChild(2).gameObject.GetComponent<SpriteRenderer>()
+                                    .sortingOrder = 2;
                                 itemParent.transform.DOScale(0.8f, 0.15f).OnComplete(() =>
                                 {
                                     OpenDoor.ins.OpenOrClose();
@@ -137,16 +140,19 @@ namespace VuTienDat
                         }
                         else if (tag.tagValue == "LipDone")
                         {
+                            itemParent.transform.SetParent(null);
                             TruePos truePos = itemParent.GetComponent<TruePos>();
                             if (Vector3.Distance(itemParent.transform.position, truePos.truePos) < truePos.distance)
                             {
                                 truePos.Move();
+                                itemParent.transform.GetComponent<SpriteRenderer>().sprite =
+                                    itemParent.GetComponent<ChangeSprite>().spriteFold;
+                                itemParent.transform.eulerAngles = new Vector3(0, 0, 0);
                                 StartCoroutine(ShowEye());
                             }
                             else
                             {
                                 itemParent.transform.DOMove(lastPos, 0.25f);
-                                itemParent.transform.DORotate(new Vector3(0, 0, 180), 0.25f);
                             }
                         }
                         else
@@ -165,7 +171,7 @@ namespace VuTienDat
                 Vector3 newPosition = cam.ScreenToWorldPoint(newMousePosition);
                 itemParent.transform.position = new Vector3(newPosition.x, newPosition.y);
             }
-            if (indexLip == 3)
+            if (indexLip == 4)
             {
                 boxButton.enabled = true;
                 indexLip++;
@@ -181,9 +187,9 @@ namespace VuTienDat
                     listD2D.Remove(listD2D[i]);
                 }
             }
-            if (listD2D.Count == 0)
+            if (listD2D.Count == 0 && glass_2.transform.childCount  == 4)
             {
-                glass_2.transform.GetChild(1).gameObject.layer = 6;
+                glass_2.transform.GetChild(3).gameObject.layer = 6;
                 if (!isShowDone)
                 {
                     ShowDone();
@@ -211,12 +217,12 @@ namespace VuTienDat
             {
                 indexLip++;
                 Debug.Log("Index : " + indexLip);
-                if (indexLip == 2)
+                if (indexLip == 3)
                 {
                     listTool[0].transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = false;
                     listTool[1].transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = true;
                 }
-                if (indexLip < 3)
+                if (indexLip < 4)
                     listItem[indexLip].GetComponent<BoxCollider2D>().enabled = true;
             }
         }
@@ -225,7 +231,7 @@ namespace VuTienDat
             yield return new WaitForSeconds(3f);
             OpenDoor.ins.OpenOrClose();
             glass_2.transform.DOScale(1, 0.3f).SetDelay(0.3f);
-            glass_2.transform.DOMove(new Vector3(1.584f, -1.2f, 0), 0.3f).SetDelay(0.3f).OnComplete(() =>
+            glass_2.transform.DOMove(new Vector3(1.96f, -1.9f, 0), 0.3f).SetDelay(0.3f).OnComplete(() =>
             {
                 OpenDoor.ins.OpenOrClose();
                 lipDone.GetComponent<BoxCollider2D>().enabled = true;
@@ -233,19 +239,23 @@ namespace VuTienDat
         }
         public void ChangeSprite()
         {
-            glass_2.transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(1, 2f);
-            glass_2.transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(1, 2f);
+            /*glass_2.transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(1, 2f);
+            glass_2.transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(1, 2f);*/
+            glass_2.transform.GetChild(3).GetComponent<SpriteRenderer>().DOFade(1, 2f);
             glass_2.transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(0, 2f);
         }
         IEnumerator ShowEye()
         {
-            yield return new WaitForSeconds(1f);
-            spEye.DOFade(1, 2f).OnComplete(() =>
+            yield return new WaitForSeconds(.5f);
+            PopupManager.ShowToast("Win");
+            ShowDone();
+            GameManager_Level_40.instance.setIsGamePause(true);
+            /*spEye.DOFade(1, 2f).OnComplete(() =>
             {
                 PopupManager.ShowToast("Win");
                 ShowDone();
                 GameManager_Level_40.instance.setIsGamePause(true);
-            });
+            });*/
         }
         public void ShowDone()
         {
