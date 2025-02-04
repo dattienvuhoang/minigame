@@ -93,11 +93,12 @@ namespace VuTienDat
                                 z = hitAll[i].transform.position.z;
                             }
                         }
+                        if (itemParent.GetComponent<TagGameObject>().tagValue != "Box")
                         itemParent.transform.position = new Vector3(itemParent.transform.position.x, itemParent.transform.position.y, z - 0.001f);
                     }
                     else
                     {
-                        Debug.Log("Falsw");
+                        Debug.Log("False");
 
                         itemParent.transform.position = new Vector3(itemParent.transform.position.x, itemParent.transform.position.y, 0);
                     }

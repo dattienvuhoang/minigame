@@ -18,13 +18,27 @@ namespace VuTienDat
         {
             isShowDone = true;
             count = listD2D.Count;
+            Debug.Log(listD2D.Count);
+            Debug.Log(count);
         }
         private void Update()
         {
-            for (int i = 0; i < listD2D.Count; i++)
+            for (int i = 0; i < listD2D.Count/2; i++)
+            {
+                if (listD2D[i].AlphaRatio > 0.95f)
+                {
+                    Debug.Log("Checkkk");
+                    //listD2D[i].Clear();
+                    //listD2D[i].gameObject.SetActive(false);
+                    listD2D.Remove(listD2D[i]);
+                }
+            }
+            for (int i = listD2D.Count/2; i < listD2D.Count; i++)
             {
                 if (listD2D[i].AlphaRatio < 0.01f)
                 {
+                    Debug.Log("Checkkk2222");
+
                     //listD2D[i].Clear();
                     listD2D[i].gameObject.SetActive(false);
                     listD2D.Remove(listD2D[i]);
@@ -45,7 +59,7 @@ namespace VuTienDat
                  }*/
                 if (isShowDone)
                 {
-                    Debug.Log("Check Done");
+                    Debug.Log("Check Done ...........");
                     isShowDone = false;
                     DragController_Level_28.ins.ShowDone();
                 }

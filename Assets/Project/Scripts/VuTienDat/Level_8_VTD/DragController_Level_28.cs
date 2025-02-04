@@ -107,7 +107,7 @@ namespace VuTienDat
                     TagGameObject tag = hit.collider.gameObject.GetComponent<TagGameObject>();
                     if (tag != null)
                     {
-                        /*if (tag.tagValue == "Switch")
+                        if (tag.tagValue == "Switch")
                         {
                             Debug.Log("Click");
                             //TurnOnOffFan.Instance.OnOff();
@@ -121,12 +121,13 @@ namespace VuTienDat
                                 }
                             }
                         }
-                        else*/
+                        else
                         {
                             
                             isDragging = true;
                             itemParent = hit.collider.gameObject;
-                            itemChild = itemParent.transform.GetChild(0).gameObject;
+                            if (itemParent.transform.childCount > 0)
+                                itemChild = itemParent.transform.GetChild(0).gameObject;
                             if (tag.tagValue == "Soap")
                             {
                                 itemParent.transform.GetChild(1).gameObject.SetActive(true);
@@ -135,6 +136,7 @@ namespace VuTienDat
                             {
                                 if (itemParent.name == "Screw")
                                 {
+                                    Debug.Log(itemParent.name);
                                     itemParent.transform.GetChild(1).gameObject.SetActive(false);
                                     itemParent.transform.GetChild(0).gameObject.SetActive(true);
                                 }
@@ -177,7 +179,7 @@ namespace VuTienDat
                                     if (listItemWave_5.IndexOf(itemParent) == indexItem|| indexItem >= 6 )
                                     {
                                         truePos.Move();
-                                        itemChild.GetComponent<SpriteRenderer>().sortingOrder = indexItem;
+                                        //itemChild.GetComponent<SpriteRenderer>().sortingOrder = indexItem;
                                         indexItem++;
                                     }
                                     else
@@ -207,6 +209,7 @@ namespace VuTienDat
                                 if (truePos2.Check() && truePos2.isMove)
                                 {
                                     truePos2.Move();
+                                    indexItem++;
                                 }
                             }
                         }
@@ -332,13 +335,15 @@ namespace VuTienDat
                     isShowDone = true;
                     ShowDone();
                 }*/
+                Debug.Log("555555555555");
                 if (!isDragging)
                 {
                     isShowDone = false;
-                    if (indexItem == 9)
+                    if (indexItem == 10)
                     {
                         indexWave++;
                         turnOnBox.enabled = true;
+                        Debug.Log(indexItem);
                     }
                 }
 
@@ -414,7 +419,7 @@ namespace VuTienDat
         {
             for (int i = 0; i < listSpriteWave4.Count; i++)
             {
-                listSpriteWave4[i].DOFade(0, 1f);
+                listSpriteWave4[i].DOFade(0, 1f); 
             }
             StartCoroutine(SetActiveGameObject(wave_4, 1.05f));
             listItemWave_5[0].transform.DOMoveX(0f, 1.25f);
